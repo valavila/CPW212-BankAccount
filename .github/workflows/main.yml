@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: BankAccountApp
-          path: bin\Release
+          path: BankAccount\bin\Release
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
